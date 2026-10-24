@@ -1,0 +1,25 @@
+# Large model artifacts and local scratch
+_research/
+artifacts/
+prism-win/
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated evidence bundle (large; regenerate locally)
+evidence/rea-evidence.json

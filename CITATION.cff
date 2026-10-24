@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this report, cite it as below."
+title: "Ternary Bonsai 徹底解剖: 27B級を5.9GBで動かす1.58-bitのリバースエンジニアリング"
+abstract: >-
+  An independent technical report on PrismML's Ternary Bonsai 2 27B.
+  Combines a literature review of ternary quantization with byte-level
+  reverse engineering of the released GGUF files, the Hadamard rotation,
+  the 42/128 zero-mask structure, and the runtime kernels.
+authors:
+  - family-names: "ELRdn"
+    given-names: "ELRdn"
+date-released: "2026-10-25"
+license: "MIT"
+url: "https://github.com/ELRdn/bonsai-ternary-REA"
+keywords:
+  - ternary quantization
+  - 1.58-bit
+  - Bonsai
+  - PrismML
+  - GGUF
+  - llama.cpp
+  - reverse engineering
